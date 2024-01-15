@@ -1,0 +1,7 @@
+
+⭐️ Git:
+        Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.
+
+⭐️ GitHub:
+        GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+        We can say giant online storage for projects.
