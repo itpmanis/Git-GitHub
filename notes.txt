@@ -2,13 +2,87 @@
 ⭐️ Git:
         Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.
 
-⭐️ GitHub:
-        GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-        We can say giant online storage for projects.
-
+⭐️ Git Basic
 ⭐️ 1. Install Git:
         Download and install Git from https://git-scm.com/
 
 ⭐️ 2. Configure Git:
-        git config --global user.name "Your Name"
-        git config --global user.email "Your Email"
+        - git config --global user.name "Your Name"
+        - git config --global user.email "Your Email"
+
+⭐️ 3. Initialize a Git Repository:
+        Go to your project's directory and run:
+        - git init
+
+⭐️ 4. Add Files 
+        Add files to the staging area before committing:
+        - git add <file-name>
+        - git add . (to add all files)
+
+⭐️ 5. Commit Changes
+        Commit your changes with a message:
+        - git commit -m "Commit message"
+
+⭐️ 6. Check Status:
+        View the status of your repository:
+        - git status
+
+
+-----------------------------------------------------------
+⭐️ GitHub:
+        GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+        We can say giant online storage for projects.
+
+
+⭐️ GitHub Basic
+
+⭐️ 1. Create a GitHub Account:
+        Go to https://github.com/ and sign up.
+
+⭐️ 2. Create a Repository:
+        Click on "+" and choose "New repository" on GitHub. 
+        Give a name to your repository and click on "Create repository".
+
+⭐️ 3. Connect Local Git Repository to GitHub:
+        Copy the URL of your repository from GitHub.
+        Go to your project's directory and run:
+        - git remote add origin <repository-url>  (to connect local repository to remote repository)
+        
+⭐️ 4. Push Changes to GitHub:
+        Push your local changes to GitHub:
+        - git push -u origin master
+
+⭐️ 5. Clone a Repository:
+        Clone a repository from GitHub to your local machine:
+        - git clone <repository-url>
+
+
+-----------------------------------------------------------
+
+⭐️ Branching in Git:
+        Branching is the way to work on different versions of a repository at one time.
+        By default, a repository has one branch named master which is considered to be the definitive branch.
+        We use branches to experiment and make edits before committing them to master.
+        
+        1. Create a Branch:
+        - git branch new-branch
+
+        2. Switch to a Branch:
+        - git checkout new-branch
+
+        3. Merge a Branch:
+        - git checkout branch-to-merge-into
+
+-----------------------------------------------------------
+
+⭐️ Pull Request:
+        Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub.
+        Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+
+        1. Create a Pull Request:
+        - git push origin new-branch
+
+        2. Merge a Pull Request:
+        - git checkout master
+        - git merge new-branch
+        - git push origin master
