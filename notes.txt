@@ -5,3 +5,10 @@
 ⭐️ GitHub:
         GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
         We can say giant online storage for projects.
+
+⭐️ 1. Install Git:
+        Download and install Git from https://git-scm.com/
+
+⭐️ 2. Configure Git:
+        git config --global user.name "Your Name"
+        git config --global user.email "Your Email"
