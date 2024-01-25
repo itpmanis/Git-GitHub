@@ -27,6 +27,19 @@
         View the status of your repository:
         - git status
 
+⭐️ 7. View Commits History:
+        View the history of your commits:
+        - git log
+
+⭐️ 8. Ignoring Files:
+        Create a file named .gitignore and add the files you want to ignore:
+        - touch .gitignore
+        - inside .gitignore file add the files you want to ignore with their extensions
+        - eg: *.txt (to ignore all txt files), .DS_Store (to ignore .DS_Store file)
+
+⭐️ 9. Viewing Changes:
+        View the changes between the working directory and the staging area:
+        - git diff
 
 -----------------------------------------------------------
 ⭐️ GitHub:
@@ -56,6 +69,12 @@
         Clone a repository from GitHub to your local machine:
         - git clone <repository-url>
 
+⭐️ 6. Pulling Changes from GitHub:
+        Pull changes from GitHub to your local machine:
+        - git pull origin master
+
+
+
 
 -----------------------------------------------------------
 
@@ -72,6 +91,9 @@
 
         3. Merge a Branch:
         - git checkout branch-to-merge-into
+
+        4. Delete a Branch:
+        - git branch -d branch-to-delete
 
 -----------------------------------------------------------
 
