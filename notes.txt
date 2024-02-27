@@ -73,9 +73,6 @@
         Pull changes from GitHub to your local machine:
         - git pull origin master
 
-
-
-
 -----------------------------------------------------------
 
 ⭐️ Branching in Git:
