@@ -148,3 +148,15 @@ diskutil: Manages disk partitions and formats.
 say: Converts text to speech.
 defaults: Accesses macOS user defaults.
 spctl: Manages the security assessment policy subsystem.
+
+
+
+____________________
+** Notes **
+- Git is just a software,
+- Github is a service provider.
+- Repo (Repository): a folder which contain lots of project files and folders.
+- git history: all the changes that have been made to the project.
+- git status: to check the status of the project.
+- git init: (one time per project) to initialize the git repository.
+- .git: hidden folder which contain all the git history.
