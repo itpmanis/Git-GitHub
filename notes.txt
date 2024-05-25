@@ -108,3 +108,22 @@
         - git checkout master
         - git merge new-branch
         - git push origin master
+
+
+
+
+
+__________
+
+mkdir = make directory
+cd = change directory
+ls = list
+touch = create file
+rm = remove
+rm -rf = remove directory
+mv = move
+cp = copy
+cat = concatenate
+pwd = present working directory
+clear = clear the terminal
+history = history
