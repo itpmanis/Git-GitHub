@@ -161,4 +161,5 @@ ____________________
 - git init: (one time per project) to initialize the git repository.
 - .git: hidden folder which contain all the git history.
 - staging area: a place where we can add files before committing.
-- git log: to see the history of the projec  
+- git log: to see the history of the projec  q
+- git ignore: to ignore the files that we don't want to track.
