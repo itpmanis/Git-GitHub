@@ -152,7 +152,7 @@ spctl: Manages the security assessment policy subsystem.
 
 
 ____________________
-** Notes **
+** Notes ** 
 - Git is just a software,
 - Github is a service provider.
 - Repo (Repository): a folder which contain lots of project files and folders.
@@ -160,3 +160,5 @@ ____________________
 - git status: to check the status of the project.
 - git init: (one time per project) to initialize the git repository.
 - .git: hidden folder which contain all the git history.
+- staging area: a place where we can add files before committing.
+- git log: to see the history of the projec  
