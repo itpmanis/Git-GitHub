@@ -149,8 +149,6 @@ say: Converts text to speech.
 defaults: Accesses macOS user defaults.
 spctl: Manages the security assessment policy subsystem.
 
-
-
 ____________________
 ** Notes ** 
 - Git is just a software,
