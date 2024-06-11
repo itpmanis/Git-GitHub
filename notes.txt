@@ -46,7 +46,6 @@
         GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
         We can say giant online storage for projects.
 
-
 ⭐️ GitHub Basic
 
 ⭐️ 1. Create a GitHub Account:
@@ -72,9 +71,6 @@
 ⭐️ 6. Pulling Changes from GitHub:
         Pull changes from GitHub to your local machine:
         - git pull origin master
-
-
-
 
 -----------------------------------------------------------
 
@@ -108,3 +104,7 @@
         - git checkout master
         - git merge new-branch
         - git push origin master
+
+___________________________________________________________
+
+This is all about Git and GitHub basic.
