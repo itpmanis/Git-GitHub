@@ -46,6 +46,7 @@
         GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
         We can say giant online storage for projects.
 
+
 ⭐️ GitHub Basic
 
 ⭐️ 1. Create a GitHub Account:
@@ -105,6 +106,58 @@
         - git merge new-branch
         - git push origin master
 
-___________________________________________________________
 
-This is all about Git and GitHub basic.
+
+
+
+__________
+ ** basic command-line interface (CLI) commands **
+
+macOS Terminal Commands
+ls: Lists the files and directories in the current directory.
+cd: Changes the current directory.
+mkdir: Creates a new directory.
+rmdir: Removes an empty directory.
+rm: Deletes files or directories.
+cp: Copies files or directories.
+mv: Moves or renames files or directories.
+cat: Concatenates and displays the contents of files.
+echo: Displays messages or sets environment variables.
+clear: Clears the terminal screen.
+exit: Exits the shell.
+ifconfig: Configures or displays network interface parameters.
+ping: Tests connectivity to another network host.
+ps: Displays information about active processes.
+kill: Terminates processes by process ID.
+chmod: Changes file permissions.
+chown: Changes file ownership.
+grep: Searches for patterns in files.
+find: Searches for files in a directory hierarchy.
+tar: Archives files.
+wget: Retrieves files from the web.
+curl: Transfers data from or to a server.
+ssh: Connects to a remote machine via SSH.
+scp: Securely copies files between hosts.
+nano: Edits files using the Nano text editor.
+vim: Edits files using the Vim text editor.
+open: Opens files or directories in their default application.
+top: Displays real-time system statistics.
+du: Estimates file and directory space usage.
+df: Reports file system disk space usage.
+diskutil: Manages disk partitions and formats.
+say: Converts text to speech.
+defaults: Accesses macOS user defaults.
+spctl: Manages the security assessment policy subsystem.
+
+____________________
+** Notes ** 
+- Git is just a software,
+- Github is a service provider.
+- Repo (Repository): a folder which contain lots of project files and folders.
+- git history: all the changes that have been made to the project.
+- git status: to check the status of the project.
+- git init: (one time per project) to initialize the git repository.
+- .git: hidden folder which contain all the git history.
+- staging area: a place where we can add files before committing.
+- git log: to see the history of the projec  q
+- git ignore: to ignore the files that we don't want to track.
